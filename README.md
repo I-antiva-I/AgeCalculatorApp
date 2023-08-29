@@ -1,6 +1,6 @@
 # Frontend Mentor - Age Calculator App
 This is a solution 
-to [Age calculator app challenge](https://www.frontendmentor.io/solutions/interactive-card-details-form-0eTpPZPhwa)
+to [Age calculator app challenge](https://www.frontendmentor.io/challenges/age-calculator-app-dF9DFFpj-Q)
 on [Frontend Mentor](https://www.frontendmentor.io)
 
 ![Difficulty-[2] Junior](<https://img.shields.io/badge/Difficulty-[2] Junior-3CB371?style=for-the-badge>)
