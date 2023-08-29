@@ -1,0 +1,21 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;0,800;1,400;1,700&display=swap');
+
+:root
+{
+    --width-mobile:     340px;
+    --width-desktop:    635px;
+
+    --color-purple:         hsl(259, 100%, 65%);
+    --color-light-red:      hsl(0, 100%, 67%);
+    --color-blue:           dodgerblue;
+
+    --color-white:            hsl(0, 0%, 100%);
+    --color-off-white:        hsl(0, 0%, 94%);
+    --color-light-grey:       hsl(0, 0%, 86%);
+    --color-smokey-grey:      hsl(0, 1%, 44%);
+    --color-off-black:        hsl(0, 0%, 8%);
+
+    --font-size-default:  32px;
+}
+
+
