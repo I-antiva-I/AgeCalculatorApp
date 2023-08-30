@@ -243,7 +243,7 @@ input[type=number]
   
 }
 
-@media screen and (min-width: 1000px) 
+@media screen and (min-width: 800px) 
 {
 
   main
@@ -300,6 +300,88 @@ input[type=number]
   .input-info
   {
     font-size: 0.625rem;
+    padding: 0.125rem 0rem;
+  }
+    
+}
+
+@media screen and (min-width: 1000px) 
+{
+
+  main
+  {
+    margin:           9.75rem 1rem;
+    border-radius:    1.25rem 1.25rem 11.5rem 1.25rem;
+    padding:          3.375rem 3.5rem 4rem;
+
+    max-width: var(--width-desktop-big);
+  }
+
+  .input-label
+  {
+    font-size: 0.875rem;
+  }
+
+  .input-fields
+  {
+    gap: 0rem 1.75rem;
+    margin-right: 11.5rem;
+  }
+
+  .input-field
+  {
+    height:  4.75rem;
+    font-size:      2.25rem;
+    font-weight:    700;
+    padding: 0.125rem 0.125rem 0.125rem 1.25rem;
+  }  
+
+  .button-container
+  {
+    margin: 2.375rem 0;
+  }
+
+  #submit-button
+  {
+    width:    6rem;
+    height:   6rem;
+
+    top: calc(+2px - 3rem);
+    left: calc(100% - 6rem);
+
+    border: 1.5rem solid var(--color-purple);
+  }
+  #submit-button:hover
+  {
+    border: 1.5rem solid var(--color-blue);
+  }
+
+  .display-info
+  {
+    height: 8.375rem;
+    margin-top: -1.25rem;
+  }
+  
+  .years-value,
+  .months-value,
+  .days-value
+  {
+    letter-spacing: 4px;
+    margin-right: 0.5rem;
+  }
+
+  .years-value,
+  .months-value,
+  .days-value,
+  .years-label,
+  .months-label,
+  .days-label
+  {
+    font-size: 6.875rem;
+  }
+  .input-info
+  {
+    font-size: 0.875rem;
     padding: 0.125rem 0rem;
   }
     

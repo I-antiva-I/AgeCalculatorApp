@@ -2,8 +2,9 @@
 
 :root
 {
-    --width-mobile:     340px;
-    --width-desktop:    635px;
+    --width-mobile:             340px;
+    --width-desktop:            635px;
+    --width-desktop-big:        840px;
 
     --color-purple:         hsl(259, 100%, 65%);
     --color-light-red:      hsl(0, 100%, 67%);
